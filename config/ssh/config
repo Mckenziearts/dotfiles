@@ -1,0 +1,5 @@
+# Home account
+ Host <hostname>
+   HostName <IP address>
+     PreferredAuthentications publickey
+       IdentityFile <your-ssh-key>
