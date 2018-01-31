@@ -1,0 +1,44 @@
+# Set case-sensitivity for completion, history lookup, etc.
+zstyle ':prezto:*:*' case-sensitive 'no'
+
+# Set the Prezto modules to load (browse modules).
+# The order matters.
+zstyle ':prezto:load' pmodule \
+  'environment' \
+  'terminal' \
+  'editor' \
+  'history' \
+  'directory' \
+  'spectrum' \
+  'utility' \
+  'completion' \
+  'prompt' \
+  'syntax-highlighting' \
+  'history-substring-search' \
+  'git' \
+  'tmux'
+
+# Set ssh-agent identities to load.
+# zstyle ':prezto:module:ssh-agent' identities 'id_rsa'
+
+# Set syntax highlighters.
+# By default main, brackets, and cursor are enabled.
+ zstyle ':prezto:module:syntax-highlighting' highlighters \
+   'main' \
+   'brackets' \
+   'pattern' \
+   'cursor' \
+   'root'
+
+#
+# Terminal
+#
+
+# Auto set the tab and window titles.
+zstyle ':prezto:module:terminal' auto-title 'yes'
+
+# Tmux
+#
+
+# Auto start a session when Zsh is launched.
+#zstyle ':prezto:module:tmux:auto-start' local 'yes'
