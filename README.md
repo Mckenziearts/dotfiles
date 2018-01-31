@@ -11,7 +11,7 @@ Ce dépot est une aide personnelle pour me permettre de facilement me retrouver 
 Pour commencer il faut clôner le dépôt :
 
 ```
-git clone https://github.com/hamvocke/dotfiles.git ~/.dotfiles
+git clone https://github.com/Mckenziearts/dotfiles.git ~/.dotfiles
 ```
 Créez des liens symboliques pour les configurations que vous souhaitez utiliser, exemple :
 
@@ -29,7 +29,7 @@ Ensuite vous pouvez éditer le fichier selon vos préférences personnelles :smi
 La liste des paquets installés sur ma machine sont disponibles dans le fichier `package.list`, et mes paquets pour le développment se trouvent dans le fichier `development.list`.
 
 ```
-cat package.list | xargs yaourt -S --needed --noconfirm
+cat .dotfiles/packages/package.list | xargs yaourt -S --needed --noconfirm
 ```
 
 ## Trucs & Astuces
@@ -46,4 +46,4 @@ sudo netstat -nlp | grep <port>
 
 ## Configuration additionnelle
 
-Certaines configurations nécessitent une installation ou une configuration supplémentaire. Si c'est le cas, rassurez-vous d'installer d'abord les paquets correspondants pour que ces derniers puissent bien fonctionnés dans votre système.
+Certaines configurations nécessitent une installation ou une configuration supplémentaire. Si c'est le cas, vous pouvez trouver un fichier README.md dans le répertoire de l'application. Assurez-vous de jeter un coup d'oeil.
