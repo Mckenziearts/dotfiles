@@ -1,6 +1,5 @@
 google-chrome
 screenfetch
-super-flat-remix-icon-theme
 spotify
 system-san-francisco-font-git
 ttf-font-awesome
@@ -12,13 +11,12 @@ wget
 ktorrent
 zsh
 zsh-autosuggestions
-zsh-completions-git
 zsh-syntax-highligthing
 dpkg
 gtk-arc-flatabulous-theme-git
 flat-remix-git
 prezto-git
 devdocs-desktop
-arc-icon-theme-git
 tmux
 xfce4-whiskermenu-plugin-git
+qtwebflix-git
