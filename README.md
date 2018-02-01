@@ -47,3 +47,11 @@ sudo netstat -nlp | grep <port>
 ## Configuration additionnelle
 
 Certaines configurations nécessitent une installation ou une configuration supplémentaire. Si c'est le cas, vous pouvez trouver un fichier README.md dans le répertoire de l'application. Assurez-vous de jeter un coup d'oeil.
+
+## Quand le son se met à foirer
+
+Installer les paquets `pulseaudio` et `pavucontrol` puis régler le volume avec la commande 
+
+```shell
+alsamixer
+```
