@@ -55,3 +55,21 @@ Installer les paquets `pulseaudio` et `pavucontrol` puis régler le volume avec 
 ```shell
 alsamixer
 ```
+
+## Discord
+
+Parce que j'ai toujours eu un problème de clé publique lors de l'installation de discord. Je met ma démarche pour eviter de traîner plus longtemps lors des prochaines installations
+
+![discord screenshot](discord.png)
+
+Il faut déjà renseigné la clé suivante dans votre système via votre terminal
+
+```shell
+gpg --keyserver pgp.mit.edu --recv-keys 11E521D646982372EB577A1F8F0871F202119294
+```
+
+Puis vous pouvez directement lancer l'installation de discord via `yaourt`
+
+```shell
+yaourt -S discord
+```
